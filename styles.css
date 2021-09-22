@@ -49,6 +49,12 @@
 .find-start, .find-end{
   font-family: 'Courier New', monospace;
 }
+.main-content{
+  display: flex;
+}
+.about-content{
+  display: flex;
+}
 
 .footer{
   display: flex;
