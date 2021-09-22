@@ -10,3 +10,28 @@
   width: 100%;
   height: 1500px;
 }
+.container-fluid {
+  display: flex; /* hopefully this didnt mess up anything with bootstrap. it seems fine now though */
+}
+.navbar-nav {
+  border: 1px solid #111; /* debug border. feel free to take this out. */
+  margin-top: 10px;
+}
+.find-logo {
+  border: 1px solid #111;
+  display: flex;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+.y-logo {
+  margin-top: 20px;
+}
+
+.find-start {
+  margin-right: 7px;
+}
+
+.find-end {
+
+}
