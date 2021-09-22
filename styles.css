@@ -24,8 +24,9 @@
   margin-left: auto;
   justify-content: space-between;
 }
-.find-logo img{
-  width: 50px;
+.y-logo img{
+  height: 25px;
+  width: 20px;
 }
 
 .y-logo {
