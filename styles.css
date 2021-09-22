@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-#page{
+.page{
   display: flex;
   background-color: #d3d3d3;
   flex-direction: column;
