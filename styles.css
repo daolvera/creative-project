@@ -7,15 +7,38 @@
   display: flex;
   background-color: #d3d3d3;
   flex-direction: column;
+  flex: 1;
   width: 100%;
   height: 1500px;
+}
+.container-fluid li{
+  margin: 15px;
+}
+.find-logo{
+  border: 1px solid green;
+  width: 50px;
+  float: right;
+  margin: 5px;
+}
+.find-logo img{
+  width: 50px;
 }
 
 
 .footer{
   display: flex;
-  
+  margin-top: auto;
+  justify-content: space-around;
+  background-color: red;
+  color: #fff;
+
 }
 .footer-item{
   display: flex;
+  margin: 5px;
+  height: 50px;
+}
+.footer-item a{
+  text-decoration: none;
+  color: #fff;
 }
