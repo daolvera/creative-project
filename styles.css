@@ -5,7 +5,7 @@
 }
 .page{
   display: flex;
-  background-color: #fff;
+  background-color: #d3d3d3;
   flex-direction: column;
   flex: 1;
   width: 100%;
@@ -14,15 +14,16 @@
 .header{
   display:flex;
   flex-direction: column;
-  height: 100px;
+  height: 245px;
 }
 .container-fluid {
   display: flex;
   flex-direction: column;
-  background-color: #d3d3d3;
+  background-color: #808080;
 }
 .navbar-nav {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .navbar-nav li{
   text-align: center;
@@ -51,11 +52,35 @@
 }
 .main-content{
   display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .about-content{
   display: flex;
-}
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-left: 5px;
+  margin: 15px;
+  margin-bottom: 60px;
 
+}
+.about-image{
+  display: flex;
+  flex-direction: column;
+}
+.about-image img{
+  width: 100px;
+}
+.about-paragraph{
+  display: flex;
+}
+.about-content h4{
+  font-size: 24px;
+}
+.about-paragraph p{
+  font-size: 18px;
+}
 .footer{
   display: flex;
   margin-top: auto;
