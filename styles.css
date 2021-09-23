@@ -53,6 +53,9 @@
 .main-content{
   display: flex;
   justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   flex-direction: column;
 }
 .about-content{
@@ -118,11 +121,26 @@
   }
   .footer{
     flex-direction: row;
+    font-size: 20px;
+  }
+  .footer-item{
+    height: 100px;
   }
 
 }
 
 @media only screen and (min-width: 961px) {
+  body{
+    background-color: #333;
+  }
+  .page{
+    width: 80%;
+    margin-left: 10%;
+  }
+  nav{
+    width:80%;
+    margin-left: 10%;
+  }
   .container-fluid {
     display: flex; /* hopefully this didnt mess up anything with bootstrap. it seems fine now though */
     flex-direction: row;
@@ -131,12 +149,18 @@
     margin-left: auto;
     justify-content: space-between;
   }
+  .navbar-nav ul{
+  }
   .navbar-nav li{
     margin-right: 20px;
     margin-bottom: 10px;
   }
   .footer{
     flex-direction: row;
+    font-size: 20px;
+  }
+  .footer-item{
+    height: 100px;
   }
 
 }
