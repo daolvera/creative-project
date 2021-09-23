@@ -89,6 +89,48 @@
 .about-paragraph p{
   font-size: 18px;
 }
+.profile-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.profile-image img{
+  width: 100px;
+  height: 100px;
+}
+.profile-content{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  border: 1px solid blue;
+}
+.profile-summary, .profile-likes, .profile-dislikes{
+  display: flex;
+  border: 1px solid red;
+  margin-bottom: 5px;
+  flex-direction: column;
+}
+.profile-header{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  padding-left: 10%;
+
+}
+.profile-names{
+  display: flex;
+  flex-direction: column;
+
+}
+.profile-name{
+  display: flex;
+
+}
+.profile-user{
+  display: flex;
+
+}
 .side-filters{
   display: flex;
   background-color:green;
