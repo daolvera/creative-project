@@ -88,6 +88,21 @@
 .about-paragraph p{
   font-size: 18px;
 }
+.side-filters{
+  display: flex;
+  background-color:green;
+  width: 25%;
+  height: 500px;
+}
+.find-content{
+  flex-direction: row;
+}
+.main-search{
+  display: flex;
+  background-color:red;
+  width: 65%;
+  height: 500px;
+}
 .footer{
   display: flex;
   margin-top: auto;
