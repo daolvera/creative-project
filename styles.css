@@ -83,7 +83,8 @@
   display: flex;
 }
 .about-content h4{
-  font-size: 24px;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 .about-paragraph p{
   font-size: 18px;
