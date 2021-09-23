@@ -50,6 +50,10 @@
 .find-start, .find-end{
   font-family: 'Courier New', monospace;
 }
+.about-header{
+  display: flex;
+  justify-content: center;
+}
 .main-content{
   display: flex;
   justify-content: center;
@@ -119,6 +123,12 @@
     margin-right: 10px;
     margin-bottom: 5px;
   }
+  .header{
+    height: 100px;
+  }
+  .about-header h3{
+    font-size: 27px;
+  }
   .footer{
     flex-direction: row;
     font-size: 20px;
@@ -154,6 +164,12 @@
   .navbar-nav li{
     margin-right: 20px;
     margin-bottom: 10px;
+  }
+  .header{
+    height: 100px;
+  }
+  .about-header h3{
+    font-size: 30px;
   }
   .footer{
     flex-direction: row;
