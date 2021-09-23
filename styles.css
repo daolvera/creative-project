@@ -9,7 +9,7 @@
   flex-direction: column;
   flex: 1;
   width: 100%;
-  height: 1500px;
+  height: 1300px;
 }
 .header{
   display:flex;
@@ -103,13 +103,45 @@
   display: flex;
   flex-direction: column;
   height: 500px;
-  border: 1px solid blue;
+}
+.profile-edit{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: flex-end;
+}
+.profile-edit-button{
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.profile-submit{
+  margin-top: 10px;
+  display: flex;
+  align-self: center;
+}
+.profile-submit-button{
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 5px;
 }
 .profile-summary, .profile-likes, .profile-dislikes{
   display: flex;
-  border: 1px solid red;
-  margin-bottom: 5px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 25px;
   flex-direction: column;
+}
+.profile-prompt{
+  font-size: 22px;
+}
+.profile-response{
+  background-color: #A9A9A9;
+  border-radius: 5px;
+  padding: 10px;
+  height: 100px;
 }
 .profile-header{
   display: flex;
@@ -121,7 +153,12 @@
 .profile-names{
   display: flex;
   flex-direction: column;
-
+}
+.profile-names h3{
+  font-size: 26px;
+}
+.profile-names h4{
+  font-size: 20px;
 }
 .profile-name{
   display: flex;
@@ -187,6 +224,13 @@
   .about-header h3{
     font-size: 27px;
   }
+  .profile-image img{
+    width: 200px;
+    height: 200px;
+  }
+  .profile-response{
+    height: 200px;
+  }
   .footer{
     flex-direction: row;
     font-size: 20px;
@@ -228,6 +272,13 @@
   }
   .about-header h3{
     font-size: 30px;
+  }
+  .profile-image img{
+    width: 200px;
+    height: 200px;
+  }
+  .profile-response{
+    height: 200px;
   }
   .footer{
     flex-direction: row;
