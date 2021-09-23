@@ -89,6 +89,9 @@
 .about-paragraph p{
   font-size: 18px;
 }
+#profile-page{
+  height: 1800px;
+}
 .profile-image{
   display: flex;
   justify-content: center;
@@ -141,7 +144,7 @@
   background-color: #A9A9A9;
   border-radius: 5px;
   padding: 10px;
-  height: 100px;
+  height: 300px;
 }
 .profile-header{
   display: flex;
@@ -224,8 +227,21 @@
   .header{
     height: 100px;
   }
+  .about-image{
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .about-image img{
+    width: 200px;
+  }
   .about-header h3{
     font-size: 27px;
+  }
+  .about-paragraph {
+    margin-top: 10px;
+  }
+  .about-paragraph p{
+    font-size: 22px;
   }
   .profile-image img{
     width: 200px;
@@ -276,8 +292,21 @@
   .header{
     height: 100px;
   }
+  .about-image{
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .about-image img{
+    width: 200px;
+  }
   .about-header h3{
-    font-size: 30px;
+    font-size: 27px;
+  }
+  .about-paragraph {
+    margin-top: 10px;
+  }
+  .about-paragraph p{
+    font-size: 22px;
   }
   .profile-image img{
     width: 200px;
