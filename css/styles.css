@@ -63,6 +63,9 @@
   margin-right: 5%;
   flex-direction: row;
 }
+#about-main{
+  flex-direction: column;
+}
 .about-content{
   display: flex;
   flex-direction: column;
