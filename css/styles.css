@@ -11,6 +11,9 @@
   width: 100%;
   height: 1300px;
 }
+#page-home{
+  height: 1500px;
+}
 .header{
   display:flex;
   flex-direction: column;
@@ -62,6 +65,29 @@
   margin-left: 5%;
   margin-right: 5%;
   flex-direction: row;
+}
+#home-content{
+  flex-direction: column;
+}
+.home-image{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 300px;
+  border: 1px solid red;
+  background-image: url('images/friends.jpeg');
+}
+.home-links{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.find-home, .profile-home{
+  display: flex;
+  height: 300px;
 }
 #about-main{
   flex-direction: column;
