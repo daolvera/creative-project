@@ -55,12 +55,13 @@
   justify-content: center;
 }
 .main-content{
+  border: 1px solid #111;
   display: flex;
-  justify-content: center;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  flex-direction: column;
+  justify-content: left;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-direction: row;
 }
 .about-content{
   display: flex;
@@ -173,18 +174,89 @@
 }
 .side-filters{
   display: flex;
+  flex-direction: column;
   background-color:green;
   width: 25%;
-  height: 500px;
+  height: auto;
+  padding: 0 10px 20px 0;
 }
-.find-content{
+.filters-head {
+  border: 1px solid #111;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-left: 15px;
+  height: 80px;
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 20px;
+  height: auto;
+}
+.first-filter {
+  border: 1px solid #111;
+}
+.second-filter {
+  border: 1px solid #111;
+}
+.third-filter {
+  border: 1px solid #111;
+}
+.filter-content {
+  padding-left: 10px;
+}
+.filter-option {
+  list-style-type: none;
+}
+
+.find-content{ /* shouldnt this be  #find-content since its an id='' ? */
+  display: flex;
   flex-direction: row;
 }
 .main-search{
   display: flex;
+  flex-direction: column;
   background-color:red;
-  width: 65%;
-  height: 500px;
+  width: 75%;
+  height: 500px; /* want to make the height based on content, but I cant remember how to do that. */
+}
+.search-title {
+  border: 1px solid #111;
+  margin: 10px 5% 10px 5%;
+  height: 30px;
+}
+.search-profile {
+  display: flex;
+  border: 1px solid #111;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5px;
+  width: auto;
+  height: auto;
+}
+.search-prof-img {
+  height: 35px;
+  width: 35px;
+  margin: 10px 5px 0 10px;
+}
+.search-prof-text {
+  margin: 5px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+.search-fullname {
+  font-weight: bold;
+}
+.profile-rating { /* I want this to go to the right of the containter (search-profile) not sure how to do that right now */
+  border: 1px solid #111;
+  margin-left: 0 auto;
+  /*padding-top: 20px;*/
 }
 .footer{
   display: flex;
@@ -195,7 +267,6 @@
   background-color: #002152;
   color: #fff;
   font-size: 15px;
-
 }
 .footer-item{
   display: flex;
