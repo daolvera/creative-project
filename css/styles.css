@@ -12,7 +12,7 @@
   height: 1300px;
 }
 #page-home{
-  height: auto;
+  height: 85vh;
 }
 .header{
   display:flex;
@@ -130,7 +130,10 @@
   min-height: 1020px;
 }
 #about-us-page {
-  min-height: 1020px;
+  min-height: 1090px;
+}
+#find-page {
+  height: 85vh;
 }
 .profile-image{
   display: flex;
@@ -322,7 +325,6 @@
   height: 50px;
 }
 .footer-item a, .footer-item p{
-  border: 1px solid #111;
   text-decoration: none;
   color: #fff;
 }
