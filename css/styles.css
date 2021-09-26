@@ -12,7 +12,7 @@
   height: 1300px;
 }
 #page-home{
-  height: 1500px;
+  height: auto;
 }
 .header{
   display:flex;
@@ -64,6 +64,9 @@
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 5%;
+  padding-top: 0;
+  margin: 0 5% 40px 5%;
   flex-direction: row;
 }
 #home-content{
@@ -85,9 +88,12 @@
   align-items: center;
   justify-content: space-around;
 }
+
 .find-home, .profile-home{
+  border: 1px solid #111;
   display: flex;
-  height: 300px;
+  height: 110px;
+  align-items: center;
 }
 #about-main{
   flex-direction: column;
@@ -120,7 +126,11 @@
   font-size: 18px;
 }
 #profile-page{
-  height: 1800px;
+  height: auto;
+  min-height: 1020px;
+}
+#about-us-page {
+  min-height: 1020px;
 }
 .profile-image{
   display: flex;
@@ -135,7 +145,9 @@
 .profile-content{
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: auto;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 .profile-edit{
   display: flex;
@@ -202,15 +214,16 @@
 
 }
 .side-filters{
+  border-right: 1px solid #111;
   display: flex;
   flex-direction: column;
-  background-color:green;
+  background-color:d3d3d3;
   width: 25%;
   height: auto;
   padding: 0 10px 20px 0;
 }
 .filters-head {
-  border: 1px solid #111;
+  /*border: 1px solid #111;*/
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
@@ -225,17 +238,14 @@
   width: 80%;
   margin-left: 15%;
   margin-right: 5%;
-  margin-top: 20px;
+  margin-top: 10px;
   height: auto;
 }
 .first-filter {
-  border: 1px solid #111;
 }
 .second-filter {
-  border: 1px solid #111;
 }
 .third-filter {
-  border: 1px solid #111;
 }
 .filter-content {
   padding-left: 10px;
@@ -251,12 +261,11 @@
 .main-search{
   display: flex;
   flex-direction: column;
-  background-color:red;
+  background-color:d3d3d3;
   width: 75%;
   height: 500px; /* want to make the height based on content, but I cant remember how to do that. */
 }
 .search-title {
-  border: 1px solid #111;
   margin: 10px 5% 10px 5%;
   height: 30px;
 }
@@ -283,19 +292,28 @@
   font-weight: bold;
 }
 .profile-rating { /* I want this to go to the right of the containter (search-profile) not sure how to do that right now */
-  border: 1px solid #111;
-  margin-left: 0 auto;
+  display: flex;
+  margin: 5px 10px 0 auto;
+  justify-content: flex-end;
+  align-items: center;
   /*padding-top: 20px;*/
+}
+.profile-rating p{
+
+}
+.search-button {
+  width: 50px;
 }
 .footer{
   display: flex;
-  margin-top: auto;
+  margin-top: 20px;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
   background-color: #002152;
   color: #fff;
   font-size: 15px;
+  margin-top: auto;
 }
 .footer-item{
   display: flex;
@@ -303,7 +321,8 @@
   margin: 5px;
   height: 50px;
 }
-.footer-item a{
+.footer-item a, .footer-item p{
+  border: 1px solid #111;
   text-decoration: none;
   color: #fff;
 }
@@ -365,15 +384,16 @@
 
 @media only screen and (min-width: 961px) {
   .page{
-    height: 1600px;
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 95px;
   }
+
   body{
     background-color: #333;
   }
-  .page{
-    width: 80%;
-    margin-left: 10%;
-  }
+
   nav{
     width:80%;
     margin-left: 10%;
@@ -396,7 +416,7 @@
     flex-direction: row;
   }
   .header{
-    height: 100px;
+    height: 10px;
   }
   .about-image{
     margin-top: 15px;
