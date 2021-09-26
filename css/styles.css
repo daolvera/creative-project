@@ -406,7 +406,7 @@
     margin-left: 10%;
   }
   .container-fluid {
-    display: flex; /* hopefully this didnt mess up anything with bootstrap. it seems fine now though */
+    display: flex; /* this didnt mess up anything with bootstrap. it seems fine now though */
     flex-direction: row;
   }
   .find-logo {
