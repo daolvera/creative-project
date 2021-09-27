@@ -108,6 +108,7 @@
 }
 #about-main{
   flex-direction: column;
+  justify-content: center;
 }
 .about-content{
   display: flex;
